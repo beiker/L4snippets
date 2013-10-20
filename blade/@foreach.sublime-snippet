@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+@foreach (\$${1:var} as ${2:\$${3:key} => }\$${4:val})
+  ${5}
+@endforeach
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>bforeach</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>
