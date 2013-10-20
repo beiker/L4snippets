@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+class ${1:HandlerClass} {
+
+  public function ${2:fire}(\$job, \$data)
+  {
+
+  }
+
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>q--defHandlerClass</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

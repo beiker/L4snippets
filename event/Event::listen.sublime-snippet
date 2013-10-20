@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+Event::listen('${1:foo}.${2:bar}', function(${3:\$user})
+\{
+  ${4:// Handle the event...}
+
+  ${5:return false; // Stopping the propagation}
+\});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>e--listen</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

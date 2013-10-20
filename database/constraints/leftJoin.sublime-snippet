@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+->leftJoin('${1:reference}', '${2:local.column}', '${3:=}', '${4:reference.column}')_${5}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>_leftJoin</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

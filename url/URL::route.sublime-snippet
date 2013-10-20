@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+URL::route('${1:foo}', ${2:\$parameters}, ${3:\$absolute});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>u--route</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

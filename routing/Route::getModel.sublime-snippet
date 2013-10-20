@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+Route::get('profile/{user}', function(User \$user)
+{
+  return \$user;
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>r--getMdl</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

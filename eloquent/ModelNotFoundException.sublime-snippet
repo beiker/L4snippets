@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+use Illuminate\Database\Eloquent\ModelNotFoundException;
+
+\App::error(function(ModelNotFoundException $e)
+{
+  return \Response::make('Not Found', 404);
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>m--notFoundExcep</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

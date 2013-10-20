@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+Event::listen('${1:foor}.${2:bar}', '${3:BazHandler}', ${4:10});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>e--priority</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

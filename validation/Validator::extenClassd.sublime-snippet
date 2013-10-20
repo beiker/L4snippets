@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+Validator::extend('${1:foo}', '${2:FooValidator}@${3:validate}');
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>val--extendClass</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

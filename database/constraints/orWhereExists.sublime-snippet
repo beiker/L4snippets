@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+->orWhereExists(function(\$query)
+{
+  ${1:\$query->select("${2:fields}")
+      ->from('${3:table}')};
+})_${4}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>_orWhereExists</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+return Redirect::intended('${1:foo\bar}');
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>red--intended</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

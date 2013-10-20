@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+->orWhere('${1:column}'${2:, '${3:operator}'}, '${4:value}')_${5}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>_orWhere</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

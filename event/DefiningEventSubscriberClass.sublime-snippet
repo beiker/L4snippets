@@ -1,0 +1,32 @@
+<snippet>
+  <content><![CDATA[
+<?php
+
+class ${1:Foo}EventHandler {
+
+  /**
+   * Handle user login events.
+   */
+  public function onUserLogin(\$event)
+  {
+    ${2}
+  }
+
+  /**
+   * Register the listeners for the subscriber.
+   *
+   * @param  Illuminate\Events\Dispatcher  $events
+   * @return array
+   */
+  public function subscribe(\$events)
+  {
+    \$events->listen('foo.bar', 'FooEventHandler@onUserLogin');
+  }
+
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>e--defSubscrClass</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.php</scope> -->
+</snippet>

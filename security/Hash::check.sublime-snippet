@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+Hash::check('${1:secretpassword}', ${2:\$hashedPassword});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>h--check</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

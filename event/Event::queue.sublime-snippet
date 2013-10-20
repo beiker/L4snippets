@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+Event::queue('${1:foo}', array(${2:\$user}));
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>e--queue</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

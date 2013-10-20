@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+URL::secure('${1:foo/bar}', ${2:\$parameters});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>u--secure</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

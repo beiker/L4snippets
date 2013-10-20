@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+DB::delete('delete from ${1:table}');
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>db--del</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+Cache::rememberForever('${1:key}', ${2:function()
+\{
+  return ${3:'value'};
+\}});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>c--rememberf</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

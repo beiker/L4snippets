@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+DB::update('update ${1:table} set ${2:field} = ${3:newValue} where ${4:field} = ?', array(${5:value}));
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>db--upd</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

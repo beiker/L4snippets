@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+DB::select('select ${1:fields} from ${2:table} ${3:where id = ?}', array(${4:value}));
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>db--sel</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

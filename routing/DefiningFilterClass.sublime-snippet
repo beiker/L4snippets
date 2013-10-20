@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+<?php
+
+class ${1:Foo}Filter {
+
+  public function filter()
+  {
+    // Filter logic...
+  }
+
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>r--defFilClass</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+Mail::later(${1:seconds}, '${2:email.view}', ${3:\$data}, function(\$message)
+{
+  ${4:\$message->to('foo@example.com', 'John Smith')->subject('Welcome!');}
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ma--later</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

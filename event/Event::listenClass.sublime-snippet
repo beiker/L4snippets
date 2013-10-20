@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+Event::listen('${1:foo}.${2:bar}', '${3:Baz}Handler');${4: // By default, the handle method on the BazHandler class will be called.}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>e--listenClass</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

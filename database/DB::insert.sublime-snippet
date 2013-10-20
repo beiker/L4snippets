@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+DB::insert('insert into ${1:table} (${2:field}) values (?)', array(${3:value}));
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>db--ins</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

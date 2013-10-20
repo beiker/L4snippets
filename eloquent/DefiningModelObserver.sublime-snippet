@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+class ${1:Model}Observer {
+
+  public function saving($model)
+  {
+    //
+  }
+
+  public function saved($model)
+  {
+    //
+  }
+
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>m--defModelObsClass</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

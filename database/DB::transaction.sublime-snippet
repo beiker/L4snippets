@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+DB::transaction(function()
+{
+  ${1:// code here}
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>db--trans</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

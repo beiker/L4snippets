@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+->orHavingRaw('${1:sql}', array('${2:bindings}'))_${3}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>_orHavingRaw</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

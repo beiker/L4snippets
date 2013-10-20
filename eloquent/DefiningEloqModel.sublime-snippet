@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+class ${1:Model} extends Eloquent {
+
+  protected \$table = 'table';
+
+  protected \$softDelete = true;
+
+  protected \$appends = array();
+
+  ${2:protected \$hidden = array();
+
+  protected \$visible = array();
+
+  protected \$guarded = array();
+
+  protected \$fillable = array();
+
+  public \$timestamps = false;}
+
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>m--defModelClass</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

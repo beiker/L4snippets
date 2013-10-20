@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+Validator::make(
+  array(
+    '${1:field}' => '${2:value}',
+  ),
+  array(
+    '${3:field}' => '${4:required|foo}',
+  )
+);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>val--makeArray</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

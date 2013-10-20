@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+${1:\$message}->attach(${2:\$pathToFile}${3:, array('as' => \$display, 'mime' => \$mime)});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ma--attach</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

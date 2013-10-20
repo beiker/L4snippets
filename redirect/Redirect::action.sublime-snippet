@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+return Redirect::action('${1:Foo}Controller@${2:baz}'${3:, array('${4:key}' => '${5:value}')})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>red--action</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

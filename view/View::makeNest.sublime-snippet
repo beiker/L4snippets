@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+View::make('parent.view')->nest('child', 'child.view', \$data);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>v--nest</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

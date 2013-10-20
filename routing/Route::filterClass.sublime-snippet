@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+Route::filter('${1:auth}', '${2:FooFilter}');
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>r--filterClass</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

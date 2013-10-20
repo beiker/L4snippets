@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+<?php
+
+class ${1:Custom}Validator extends \Illuminate\Validation\Validator \{
+
+  public function validate${2:Foo}(\$attribute, \$value, \$parameters)
+  \{
+    return ${3:\$value == 'foo'};
+  \}
+
+\}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>val--customClass</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>
