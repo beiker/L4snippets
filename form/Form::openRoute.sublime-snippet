@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+{{ Form::open(array('route' => ['foo.bar'${1:, id}], 'method' => 'POST'${2:, 'files' => true})) }}
+
+{{ Form::close() }}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>f--openRoute</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>
