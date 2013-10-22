@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+HTML::listingElement(${1:key}, ${2:type}, ${3:value});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>h--listingElement</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>

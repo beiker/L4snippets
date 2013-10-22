@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+HTML::secureLink(${1:url}, '${2:title}', ${3:attributes});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>h--secureLink</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>
