@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+App::setLocale('${1:en}');
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>a--setLocale</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

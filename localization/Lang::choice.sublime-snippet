@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+Lang::choice('${1:file}.${2:message}', ${3:10});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>lang--choice</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>
