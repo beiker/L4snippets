@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+File::get(${1:'path'});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>fi--get</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

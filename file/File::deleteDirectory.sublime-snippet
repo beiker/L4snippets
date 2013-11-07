@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+File::deleteDirectory(${1:\$directory}, ${2:\$preserve = false});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>fi--deleteDirectory</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

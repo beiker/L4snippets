@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+File::copyDirectory(${1:\$directory}, ${2:\$destination}, ${3:\$options = null});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>fi--copyDirectory</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

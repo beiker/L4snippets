@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+File::makeDirectory(${1:'path'},  ${2:\$mode = 0777}, ${3:\$recursive = false});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>fi--makeDirectory</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>
