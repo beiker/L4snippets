@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+asset(${1:'img/photo.jpg'}, \$title, \$attributes);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>hurl_asset</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

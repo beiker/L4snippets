@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+array_get(${1:\$array}, 'foo', 'default');
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>harray_get</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

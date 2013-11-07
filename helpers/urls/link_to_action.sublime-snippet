@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+link_to_action('${1:FooController@method}', \$title, \$params, \$attrs);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>hurl_linkAction</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+action('${1:FooController}@${2:method}', \$parameters);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>hurl_act</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>
