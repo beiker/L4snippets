@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+<?php namespace Foo\Bar;
+
+use Illuminate\Support\Facades\Facade;
+
+class ${1:ClassName} extends Facade {
+
+  /**
+   * Get the registered name of the component.
+   *
+   * @return string
+   */
+  protected static function getFacadeAccessor() { return '${2:class}'; }
+
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>facade</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.html</scope> -->
+</snippet>

@@ -1,0 +1,38 @@
+<snippet>
+  <content><![CDATA[
+<?php namespace Foo\Bar;
+
+use Illuminate\Support\ServiceProvider;
+
+class ${1:Foo}ServiceProvider extends ServiceProvider {
+
+  /**
+   * Register the service provider.
+   *
+   * @return void
+   */
+  public function register()
+  {
+    \$this->app->bind('foo', function()
+    {
+      return new Foo;
+    });
+  }
+
+  /**
+   * Bootstrap events.
+   *
+   * @return void
+   */
+  public function boot()
+  {
+
+  }
+
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>service-provider</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html - source.php</scope>
+</snippet>
